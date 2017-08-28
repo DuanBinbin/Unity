@@ -14,8 +14,9 @@ public class ParseMgr : MonoBehaviour {
 
     // Use this for initialization
     void Start ()
-    {
-        List<Hashtable> list = XmlJsonParseUtiliy.ParserJson(URL);
+    {        
+        string content = XmlJsonParseUtiliy.Instance.FileToString(URL);
+        List<Hashtable> list = XmlJsonParseUtiliy.Instance.ParserJson(content);
         foreach (var item in list)
         {
             Debug.LogFormat(" name = {0},url = {0}", item["name"], item["url"]);

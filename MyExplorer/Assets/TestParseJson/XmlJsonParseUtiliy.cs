@@ -9,18 +9,12 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class XmlJsonParseUtiliy
+public class XmlJsonParseUtiliy : Singleton<XmlJsonParseUtiliy>
 {
-    public static List<Hashtable> ParserJson(string url)
+    public List<Hashtable> ParserJson(string content)
     {
         List<Hashtable> htLists = new List<Hashtable>();
-
-        FileInfo file = new FileInfo(url);
-        StreamReader sr = new StreamReader(file.OpenRead(), Encoding.UTF8);
-        string content = sr.ReadToEnd();
-        sr.Close();
-        sr.Dispose();
-
+                                         
         // use MiniJson to let Json to string 
         object data = MiniJSON.jsonDecode(content) as object;
 
@@ -38,6 +32,16 @@ public class XmlJsonParseUtiliy
             Debug.Log("MiniJson parse failure");
         }
         return htLists;
+    }
+
+    public string FileToString(string url)
+    {
+        FileInfo file = new FileInfo(url);
+        StreamReader sr = new StreamReader(file.OpenRead(), Encoding.UTF8);
+        string content = sr.ReadToEnd();
+        sr.Close();
+        sr.Dispose();
+        return content;
     }
 
 }
