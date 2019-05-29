@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2594816266
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5adfadcae52570213e5bad97d63f0d01
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460b4f5d62b6facbccf7c01637df8f00
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Resources/Scenes_1/Textures_1/bird.png
+- Assets/AB_Resources/Scenes_1/Textures_1/main.png
+- Assets/AB_Resources/Scenes_1/Textures_1/gameover.png
+- Assets/AB_Resources/Scenes_1/Textures_1/bg.jpg
+Dependencies: []

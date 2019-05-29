@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 855069299
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 136101f0005f09c57218824fc2bef9f0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 63ca174749f3ba0e14fd411e10686c50
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e5feebd9ae8747f19f84cda983653cd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28b489b47396249f7ad768bbd451577c, type: 3}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Prefabs/Character/Player.prefab
+Dependencies:
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/models/model.ab

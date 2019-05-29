@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1054417468
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eab7d225561712e7f618d93b05b42e19
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 204a82a91ea5e3df742276cefea1557f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Resources/Scenes_1/Prefabs_1/GameStart.prefab
+Dependencies:
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/scenes_1/textures_1.ab
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/scenes_1/textures_2.ab

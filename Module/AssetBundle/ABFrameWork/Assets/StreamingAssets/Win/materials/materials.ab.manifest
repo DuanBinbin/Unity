@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1514499012
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 048845dccfc08e72a4de96b3e769fb4e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Materials/Board.mat
+- Assets/AB_Res/Materials/Tx_modelB001-5.mat
+- Assets/AB_Res/Materials/TheCube_Magnet.mat
+- Assets/AB_Res/Materials/Car_Texture.mat
+- Assets/AB_Res/Materials/Tx_modelB001-2.mat
+- Assets/AB_Res/Materials/Store.mat
+- Assets/AB_Res/Materials/TheCube_Jump.mat
+- Assets/AB_Res/Materials/Tx_modelB001-3.mat
+- Assets/AB_Res/Materials/Tx_modelB001.mat
+- Assets/AB_Res/Materials/TheCube_Run.mat
+- Assets/AB_Res/Materials/Road.mat
+- Assets/AB_Res/Materials/CoinTexture.mat
+- Assets/AB_Res/Materials/Tx_modelB001-6.mat
+- Assets/AB_Res/Materials/TheCube_Multiply.mat
+- Assets/AB_Res/Materials/Gave.mat
+- Assets/AB_Res/Materials/Tx_modelB001-4.mat
+Dependencies:
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/models/model.ab
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/shader/shader.ab

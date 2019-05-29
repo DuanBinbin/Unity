@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3463064706
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84704c18b565c6e9f7195bb51bc5ae45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Audio/bgm - Bounce_It.mp3
+- Assets/AB_Res/Audio/hit.mp3
+- Assets/AB_Res/Audio/coin.mp3
+- Assets/AB_Res/Audio/slide.ogg
+- Assets/AB_Res/Audio/button.mp3
+- Assets/AB_Res/Audio/getitem.mp3
+Dependencies: []

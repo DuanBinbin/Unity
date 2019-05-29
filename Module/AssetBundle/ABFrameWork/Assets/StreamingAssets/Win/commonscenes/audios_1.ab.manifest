@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2665579136
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b659956f04aa5ce7e0c20a28359ba216
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Resources/CommonScenes/Audios_1/Background/Fly.ogg
+- Assets/AB_Resources/CommonScenes/Audios_1/Dead.ogg
+- Assets/AB_Resources/CommonScenes/Audios_1/Hurt.ogg
+- Assets/AB_Resources/CommonScenes/Audios_1/GoldCoin.ogg
+Dependencies: []

@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 2552967863
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7363f29f3da763b0cd8a21407962955
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f4fd0e2aa207f773f1219e54864a438c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Prefabs/Eviroments.prefab
+Dependencies:
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/materials/materials.ab
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/models/model.ab

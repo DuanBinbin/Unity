@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 199213402
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a0b09964e8805904f31abda1fa45228a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bd5189cde97f4413299f5688e1a4f107
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Resources/Scenes_2/Prefabs_1/Sphere_Floor.prefab
+- Assets/AB_Resources/Scenes_2/Prefabs_1/Cube_Darkfloor.prefab
+Dependencies:
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/scenes_2/materals_1.ab

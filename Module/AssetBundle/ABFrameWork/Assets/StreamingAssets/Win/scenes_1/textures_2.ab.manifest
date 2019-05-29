@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3257747259
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6ca038c0765f3f8842ca80d998e9f049
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460b4f5d62b6facbccf7c01637df8f00
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Resources/Scenes_1/Textures_2/back.png
+- Assets/AB_Resources/Scenes_1/Textures_2/menu.png
+- Assets/AB_Resources/Scenes_1/Textures_2/ready.png
+- Assets/AB_Resources/Scenes_1/Textures_2/tap.png
+- Assets/AB_Resources/Scenes_1/Textures_2/start.png
+- Assets/AB_Resources/Scenes_1/Textures_2/rate.png
+- Assets/AB_Resources/Scenes_1/Textures_2/pipe.png
+Dependencies: []

@@ -1,0 +1,97 @@
+ManifestFileVersion: 0
+CRC: 2069702048
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scenes_1/prefabs_1.ab
+      Dependencies:
+        Dependency_0: scenes_1/textures_1.ab
+        Dependency_1: scenes_1/textures_2.ab
+    Info_1:
+      Name: commonscenes/audios_1.ab
+      Dependencies: {}
+    Info_2:
+      Name: commonscenes/commonscenes.u3d
+      Dependencies: {}
+    Info_3:
+      Name: scenes_1/textures_1.ab
+      Dependencies: {}
+    Info_4:
+      Name: scenes_1/textures_2.ab
+      Dependencies: {}
+    Info_5:
+      Name: scenes_1/scenes_1.u3d
+      Dependencies:
+        Dependency_0: scenes_2/prefabs_1.ab
+    Info_6:
+      Name: scenes_2/materals_1.ab
+      Dependencies:
+        Dependency_0: scenes_2/textures_1.ab
+    Info_7:
+      Name: scenes_2/prefabs_1.ab
+      Dependencies:
+        Dependency_0: scenes_2/materals_1.ab
+    Info_8:
+      Name: scenes_2/textures_1.ab
+      Dependencies: {}
+    Info_9:
+      Name: commonscenes/prefabs_1.ab
+      Dependencies: {}
+    Info_10:
+      Name: audio/audio.ab
+      Dependencies: {}
+    Info_11:
+      Name: effect/effect_material.ab
+      Dependencies:
+        Dependency_0: effect/effect_texture.ab
+    Info_12:
+      Name: effect/effect_texture.ab
+      Dependencies: {}
+    Info_13:
+      Name: effect/prefebs.ab
+      Dependencies:
+        Dependency_0: effect/effect_material.ab
+    Info_14:
+      Name: materials/materials.ab
+      Dependencies:
+        Dependency_0: models/model.ab
+        Dependency_1: shader/shader.ab
+    Info_15:
+      Name: models/model.ab
+      Dependencies:
+        Dependency_0: materials/materials.ab
+    Info_16:
+      Name: prefabs/building.ab
+      Dependencies:
+        Dependency_0: materials/materials.ab
+        Dependency_1: models/model.ab
+    Info_17:
+      Name: prefabs/character.ab
+      Dependencies:
+        Dependency_0: models/model.ab
+    Info_18:
+      Name: prefabs/floor.ab
+      Dependencies:
+        Dependency_0: materials/materials.ab
+        Dependency_1: models/model.ab
+    Info_19:
+      Name: prefabs/item.ab
+      Dependencies:
+        Dependency_0: materials/materials.ab
+        Dependency_1: models/model.ab
+    Info_20:
+      Name: prefabs/setstartplatform.ab
+      Dependencies:
+        Dependency_0: materials/materials.ab
+        Dependency_1: models/model.ab
+    Info_21:
+      Name: prefabs/prefabs.ab
+      Dependencies:
+        Dependency_0: materials/materials.ab
+        Dependency_1: models/model.ab
+    Info_22:
+      Name: shader/shader.ab
+      Dependencies: {}
+    Info_23:
+      Name: textures/textures.ab
+      Dependencies: {}

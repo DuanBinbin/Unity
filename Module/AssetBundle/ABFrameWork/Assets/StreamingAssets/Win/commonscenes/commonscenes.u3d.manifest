@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3000222956
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70c021d1f5820b1ae272f574d77edf97
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dea61af6302bff97ead35db81c1dcff9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Resources/CommonScenes/TestScenes.unity
+Dependencies: []

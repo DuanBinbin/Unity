@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 59816310
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d41a3189319d42a024ff8938083cced8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e6ed0dc6c4fda7823225c0eeb98e1024
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3fd34d82b81094e3d995a3faffc29b37, type: 3}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Effect/Prefebs/TheCube_Double.prefab
+- Assets/AB_Res/Effect/Prefebs/TheCube_Star.prefab
+- Assets/AB_Res/Effect/Prefebs/CoinCollectFlash.prefab
+- Assets/AB_Res/Effect/Prefebs/TheCube_Magnet.prefab
+- Assets/AB_Res/Effect/Prefebs/TheCube_Shoe.prefab
+Dependencies:
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/effect/effect_material.ab

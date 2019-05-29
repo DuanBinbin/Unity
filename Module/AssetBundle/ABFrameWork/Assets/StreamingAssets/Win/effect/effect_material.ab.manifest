@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 653232746
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f729efb776b4c662f46f743b46ac0fa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f165f44e4778b6c9d85e7a145a54cb1
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Effect/Effect_Material/TheCube_Star.mat
+- Assets/AB_Res/Effect/Effect_Material/CoinCollect.mat
+- Assets/AB_Res/Effect/Effect_Material/TheCube_Magnet.mat
+- Assets/AB_Res/Effect/Effect_Material/TheCube_Shoe.mat
+- Assets/AB_Res/Effect/Effect_Material/TheCube_Double.mat
+Dependencies:
+- E:/UnitySpace/Books/LiuGuoZhu/C30_AssetBundleFramework/ABToolsFramework/Assets/StreamingAssets/Win/effect/effect_texture.ab

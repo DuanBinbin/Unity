@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2905048735
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db30ff579381bdcef395fc57228e347e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460b4f5d62b6facbccf7c01637df8f00
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Res/Textures/scorebar.png
+- Assets/AB_Res/Textures/b-exit-active.png
+- Assets/AB_Res/Textures/b-pause-active.png
+- Assets/AB_Res/Textures/b-restart.png
+- Assets/AB_Res/Textures/Num3.png
+- Assets/AB_Res/Textures/b-pause.png
+- Assets/AB_Res/Textures/loadingbar.png
+- Assets/AB_Res/Textures/button-next.psd
+- Assets/AB_Res/Textures/coin.png
+- Assets/AB_Res/Textures/b-resume.png
+- Assets/AB_Res/Textures/b-restart-active.png
+- Assets/AB_Res/Textures/b-itemx2.png
+- Assets/AB_Res/Textures/Num1.png
+- Assets/AB_Res/Textures/title.png
+- Assets/AB_Res/Textures/loadingbar-bg.png
+- Assets/AB_Res/Textures/b-exit.png
+- Assets/AB_Res/Textures/anykeytoplay.png
+- Assets/AB_Res/Textures/b-itemstar.png
+- Assets/AB_Res/Textures/loading-Color.png
+- Assets/AB_Res/Textures/b-itemshoe.png
+- Assets/AB_Res/Textures/menu.psd
+- Assets/AB_Res/Textures/b-resume-active.png
+- Assets/AB_Res/Textures/Num2.png
+- Assets/AB_Res/Textures/Num0.png
+- Assets/AB_Res/Textures/b-itemmagnet.png
+Dependencies: []

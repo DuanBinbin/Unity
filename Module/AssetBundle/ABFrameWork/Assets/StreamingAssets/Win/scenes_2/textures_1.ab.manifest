@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 952042810
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70e031df01e8a8ed7f4cfb0318a6cb45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460b4f5d62b6facbccf7c01637df8f00
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AB_Resources/Scenes_2/Textures_1/DarkMetalFloor.jpg
+- Assets/AB_Resources/Scenes_2/Textures_1/unitychan_tile3.png
+- Assets/AB_Resources/Scenes_2/Textures_1/DarkFloor.jpg
+- Assets/AB_Resources/Scenes_2/Textures_1/Path (Rocky).jpg
+- Assets/AB_Resources/Scenes_2/Textures_1/unitychan_tile6.png
+- Assets/AB_Resources/Scenes_2/Textures_1/Metal_Normal.jpg
+- Assets/AB_Resources/Scenes_2/Textures_1/Floor.jpg
+Dependencies: []
