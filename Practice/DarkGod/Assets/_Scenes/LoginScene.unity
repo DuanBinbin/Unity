@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 8
   m_Fog: 1
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogColor: {r: 0.29018313, g: 0.24962151, b: 0.5955882, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 50
@@ -51,8 +51,8 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 9
     m_Resolution: 2
@@ -166,7 +166,31 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.64
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800002, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800002, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
+      propertyPath: m_Range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800002, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
+      propertyPath: m_Intensity
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800002, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
+      propertyPath: m_BounceIntensity
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9bf881a57b5a8484b8de93dd99355269, type: 2}
