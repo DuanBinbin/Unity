@@ -13,6 +13,7 @@ public class GameRoot : MonoBehaviour
 {
     private void Start()
     {
+        DontDestroyOnLoad(this);
         Debug.Log(GetType() + "Start()");
         Init();
     }
@@ -20,8 +21,7 @@ public class GameRoot : MonoBehaviour
     public void Init()
     {
         //初始化资源服务
-        ResService resSvc = GetComponent<ResService>();
-        resSvc.InitRes();
+        ResService.Instance.InitRes();
 
         //初始化登录系统
         LoginSystem logSys = GetComponent<LoginSystem>();

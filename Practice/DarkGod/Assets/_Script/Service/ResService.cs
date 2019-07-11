@@ -8,11 +8,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.SceneManagement;
 
-public class ResService : MonoBehaviour
+public class ResService : MonoSingleton<ResService>
 {
+    
+    
     public void InitRes()
     {
-        Debug.Log(GetType() + "InitRes()");
+       Debug.Log(GetType() + "InitRes()");
+    }
+
+    /// <summary>
+    /// “Ï≤Ωº”‘ÿ≥°æ∞
+    /// </summary>
+    public void AsyncLoadScene(string sceneName)
+    {
+        EditorSceneManager.LoadSceneAsync(sceneName);
     }
 }

@@ -24,7 +24,7 @@ public class LoginSystem : MonoBehaviour
     {
         Debug.Log(GetType() + "EnterLogin()");
         //异步加载登录场景
-
+        ResService.Instance.AsyncLoadScene(Constants.SCENE_LOGIN);
         //显示加载进度
 
         //进入注册场景
