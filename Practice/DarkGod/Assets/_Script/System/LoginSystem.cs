@@ -23,6 +23,7 @@ public class LoginSystem : MonoBehaviour
     private void EnterLogin()
     {
         Debug.Log(GetType() + "EnterLogin()");
+        GameRoot.Instance.loadingWind.gameObject.SetActive(true);
         //异步加载登录场景
         ResService.Instance.AsyncLoadScene(Constants.SCENE_LOGIN);
         //显示加载进度

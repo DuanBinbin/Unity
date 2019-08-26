@@ -2,7 +2,7 @@
 	FileName:		Constants
 	Author:			DuanBin
 	CreateTime:		7/10/2019 11:13:10 PM
-	Description:	常量文件
+	Description:	常亮配置
 *****************************************************/
 
 using System.Collections;

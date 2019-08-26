@@ -7,6 +7,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEditor.SceneManagement;
 
@@ -19,11 +20,32 @@ public class ResService : MonoSingleton<ResService>
        Debug.Log(GetType() + "InitRes()");
     }
 
+
+    private Action progressCB = null; 
     /// <summary>
     /// “Ï≤Ωº”‘ÿ≥°æ∞
     /// </summary>
     public void AsyncLoadScene(string sceneName)
     {
-        EditorSceneManager.LoadSceneAsync(sceneName);
+        AsyncOperation asyncOperation = EditorSceneManager.LoadSceneAsync(sceneName);
+        progressCB = () =>
+        {
+            float pro = asyncOperation.progress;
+            GameRoot.Instance.loadingWind.SetProgress(pro);
+            if (pro == 1)
+            {
+                progressCB = null;
+                asyncOperation = null;
+                GameRoot.Instance.loadingWind.gameObject.SetActive(false);
+            }
+        };
+    }
+
+    private void Update()
+    {
+        if (progressCB != null)
+        {
+            progressCB();
+        }
     }
 }

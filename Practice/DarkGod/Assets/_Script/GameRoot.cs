@@ -9,8 +9,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameRoot : MonoBehaviour
+public class GameRoot : MonoSingleton<GameRoot>
 {
+    public LoadingWind loadingWind;
+
     private void Start()
     {
         DontDestroyOnLoad(this);
@@ -27,5 +29,6 @@ public class GameRoot : MonoBehaviour
         LoginSystem logSys = GetComponent<LoginSystem>();
         logSys.InitLogin();
 
+        //
     }
 }
