@@ -56,4 +56,19 @@ public class ResService : MonoSingleton<ResService>
             progressCB();
         }
     }
+
+    private Dictionary<string, AudioClip> audioDict = new Dictionary<string, AudioClip>();
+    public AudioClip LoadAudio(string path,bool cache = false)
+    {
+        AudioClip audioClip = null;
+        if (!audioDict.TryGetValue(path,out audioClip))
+        {
+            audioClip = Resources.Load<AudioClip>(path);
+            if (cache)
+            {
+                audioDict.Add(path, audioClip);
+            }
+        }
+        return audioClip;
+    }
 }

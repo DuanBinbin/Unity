@@ -30,5 +30,7 @@ public class GameRoot : MonoSingleton<GameRoot>
         logSys.InitLogin();
 
         //
+        AudioService audioSvr = GetComponent<AudioService>();
+        audioSvr.InitSvr();
     }
 }

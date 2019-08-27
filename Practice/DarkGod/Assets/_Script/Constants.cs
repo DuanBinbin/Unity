@@ -12,4 +12,7 @@ using UnityEngine;
 public class Constants 
 {
     public const string SCENE_LOGIN = "LoginScene";
+
+    //…˘“Ù
+    public const string AUDIO_BG = "bgLogin";
 }

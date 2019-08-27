@@ -27,7 +27,8 @@ public class LoginSystem : MonoSingleton<LoginSystem>
         
         //异步加载登录场景
         ResService.Instance.AsyncLoadScene(Constants.SCENE_LOGIN,()=> {
-            loginWind.SetWindState(true);          
+            loginWind.SetWindState(true);
+            AudioService.Instance.PlayBGMusic(Constants.AUDIO_BG);
         });
         //显示加载进度
 
