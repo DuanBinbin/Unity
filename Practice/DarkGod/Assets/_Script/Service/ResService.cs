@@ -22,21 +22,29 @@ public class ResService : MonoSingleton<ResService>
 
 
     private Action progressCB = null; 
+    
     /// <summary>
     /// 异步加载场景
     /// </summary>
-    public void AsyncLoadScene(string sceneName)
+    /// <param name="sceneName">场景名</param>
+    /// <param name="loaded">下一个打开的场景</param>
+    public void AsyncLoadScene(string sceneName,Action loaded)
     {
         AsyncOperation asyncOperation = EditorSceneManager.LoadSceneAsync(sceneName);
+        GameRoot.Instance.loadingWind.SetWindState(true);
         progressCB = () =>
         {
             float pro = asyncOperation.progress;
             GameRoot.Instance.loadingWind.SetProgress(pro);
             if (pro == 1)
             {
+                if (loaded != null)
+                {
+                    loaded();
+                }
                 progressCB = null;
                 asyncOperation = null;
-                GameRoot.Instance.loadingWind.gameObject.SetActive(false);
+                GameRoot.Instance.loadingWind.SetWindState(false);
             }
         };
     }

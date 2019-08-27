@@ -9,8 +9,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoginSystem : MonoBehaviour
+public class LoginSystem : MonoSingleton<LoginSystem>
 {
+    public LoginWind loginWind;
     public void InitLogin()
     {
         Debug.Log(GetType() + "InitLogin()");
@@ -23,9 +24,11 @@ public class LoginSystem : MonoBehaviour
     private void EnterLogin()
     {
         Debug.Log(GetType() + "EnterLogin()");
-        GameRoot.Instance.loadingWind.gameObject.SetActive(true);
+        
         //异步加载登录场景
-        ResService.Instance.AsyncLoadScene(Constants.SCENE_LOGIN);
+        ResService.Instance.AsyncLoadScene(Constants.SCENE_LOGIN,()=> {
+            loginWind.SetWindState(true);          
+        });
         //显示加载进度
 
         //进入注册场景

@@ -51,6 +51,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224957248385892026}
+  - component: {fileID: 114907739451059714}
   m_Layer: 0
   m_Name: LoginWin
   m_TagString: Untagged
@@ -226,7 +227,7 @@ GameObject:
   - component: {fileID: 114876067923583802}
   - component: {fileID: 114468144524854438}
   m_Layer: 0
-  m_Name: IptCount
+  m_Name: IptPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -442,8 +443,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114876067923583802}
   m_TextComponent: {fileID: 114673202223245364}
   m_Placeholder: {fileID: 0}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -805,6 +806,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114907739451059714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1119366787660338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a5ccf06d81cde4b9b58e45eac9e7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iptAcc: {fileID: 114648541657359118}
+  iptPass: {fileID: 114468144524854438}
+  btnEnter: {fileID: 114835711251773312}
+  btnNotice: {fileID: 114229439726553518}
 --- !u!222 &222082525595061318
 CanvasRenderer:
   m_ObjectHideFlags: 1

@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ce0846994aa824eafac2d1f754ff0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loginWind: {fileID: 333355292}
 --- !u!114 &31059705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,6 +338,10 @@ Prefab:
       propertyPath: m_Name
       value: LoginWind
       objectReference: {fileID: 0}
+    - target: {fileID: 1119366787660338, guid: e014a0fba1acc5e4a8a655b8e9a2bc31, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e014a0fba1acc5e4a8a655b8e9a2bc31, type: 2}
   m_IsPrefabParent: 0
@@ -345,6 +350,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224649269006624298, guid: 324b829d3812462448dff0d7a42deb66,
     type: 2}
   m_PrefabInternal: {fileID: 505234920}
+--- !u!114 &333355292 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114907739451059714, guid: e014a0fba1acc5e4a8a655b8e9a2bc31,
+    type: 2}
+  m_PrefabInternal: {fileID: 155386469}
+  m_Script: {fileID: 11500000, guid: 40a5ccf06d81cde4b9b58e45eac9e7d7, type: 3}
 --- !u!1 &385582269
 GameObject:
   m_ObjectHideFlags: 0
