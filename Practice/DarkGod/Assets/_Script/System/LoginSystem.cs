@@ -9,12 +9,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoginSystem : MonoSingleton<LoginSystem>
-{
+public class LoginSystem : SystemRoot
+{ 
+
     public LoginWind loginWind;
-    public void InitLogin()
+    public CreateWind createWind;
+
+    public static LoginSystem Instance;
+
+    public override void InitSys()
     {
+        base.InitSys();
         Debug.Log(GetType() + "InitLogin()");
+        Instance = this;
         EnterLogin();
     }
 
@@ -26,12 +33,25 @@ public class LoginSystem : MonoSingleton<LoginSystem>
         Debug.Log(GetType() + "EnterLogin()");
         
         //异步加载登录场景
-        ResService.Instance.AsyncLoadScene(Constants.SCENE_LOGIN,()=> {
+        resSvr.AsyncLoadScene(Constants.SCENE_LOGIN,()=> {
             loginWind.SetWindState(true);
-            AudioService.Instance.PlayBGMusic(Constants.AUDIO_BG);
+            audSvr.PlayBGMusic(Constants.AUDIO_BG);
         });
         //显示加载进度
 
         //进入注册场景
+    }
+
+    /// <summary>
+    /// 回应登录信息
+    /// </summary>
+    public void RspLogin()
+    {
+        GameRoot.Instance.AddTips("登录成功");
+
+        //打开角色创建面板
+        createWind.SetWindState();
+        //关不登录界面
+        loginWind.SetWindState(false);
     }
 }

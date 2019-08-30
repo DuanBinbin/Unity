@@ -12,12 +12,24 @@ using UnityEngine;
 public class GameRoot : MonoSingleton<GameRoot>
 {
     public LoadingWind loadingWind;
+    public DaynamicWind daynamicWind;
 
     private void Start()
     {
         DontDestroyOnLoad(this);
         Debug.Log(GetType() + "Start()");
+        ClearUIRoot();
         Init();
+    }
+
+    private void ClearUIRoot()
+    {
+        Transform canvas = transform.Find("Canvas");
+        for (int i = 0; i < canvas.childCount; i++)
+        {
+            canvas.GetChild(i).gameObject.SetActive(false);
+        }
+        daynamicWind.SetWindState(true);
     }
 
     public void Init()
@@ -27,10 +39,18 @@ public class GameRoot : MonoSingleton<GameRoot>
 
         //初始化登录系统
         LoginSystem logSys = GetComponent<LoginSystem>();
-        logSys.InitLogin();
+        logSys.InitSys();
 
-        //
+        //声音系统
         AudioService audioSvr = GetComponent<AudioService>();
         audioSvr.InitSvr();
+
+        //
+        
+    }
+
+    public void AddTips(string tips)
+    {
+        daynamicWind.AddTipsQueue(tips);       
     }
 }

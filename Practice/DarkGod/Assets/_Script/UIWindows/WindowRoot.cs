@@ -12,7 +12,9 @@ using UnityEngine.UI;
 
 public class WindowRoot : MonoBehaviour
 {
-    public ResService resService;
+    protected ResService resService;
+    protected AudioService audService;
+
     public void SetWindState(bool isActive = true)
     {
         if (gameObject.activeSelf != isActive)
@@ -32,11 +34,13 @@ public class WindowRoot : MonoBehaviour
     protected virtual void InitWind()
     {
         resService = ResService.Instance;
+        audService = AudioService.Instance;
     }
 
     protected virtual void CloseWind()
     {
         resService = null;
+        audService = null;
     }
 
     #region Tool Functions
